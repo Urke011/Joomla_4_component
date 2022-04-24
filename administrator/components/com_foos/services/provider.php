@@ -32,3 +32,7 @@ return new class implements ServiceProviderInterface {
         );
     }
 };
+/*
+ provider.php is used to implement the component services. Via an interface, the component class defines which services it provides. A dependency injection container or DI container is used for this. To register, ComponentDispatcherFactory and MVCFactory are mandatory for each component. Registering CategoryFactory is at this place optional, we need CategoryFactory when we integrate categories later.
+
+ */

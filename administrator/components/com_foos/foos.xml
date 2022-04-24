@@ -31,3 +31,7 @@
     </updateservers>
     <dlid prefix="dlid=" suffix=""/>
 </extension>
+<!--
+foos.xml tells Joomla how to install our component. Just like modules and plugins, components have an XML installation file that informs Joomla about the extension to be installed.
+
+-->

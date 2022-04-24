@@ -66,3 +66,12 @@ class Com_FoosInstallerScript
         return true;
     }
 }
+/*
+ With the installation script file you call code
+ when your component is installed,
+ before your component is installed,
+ when your component is uninstalled,
+ before your component is uninstalled,
+ or when your component is updated.
+
+ */
