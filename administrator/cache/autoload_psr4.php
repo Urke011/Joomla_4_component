@@ -2,6 +2,7 @@
 defined('_JEXEC') or die;
 return [
 	'FooNamespace\\Component\\Foos\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_foos/src'],
+	'FooNamespace\\Component\\Foos\\Site\\' => [JPATH_SITE . '/components/com_foos/src'],
 	'Joomla\\Component\\Actionlogs\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_actionlogs/src'],
 	'Joomla\\Component\\Admin\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_admin/src'],
 	'Joomla\\Component\\Associations\\Administrator\\' => [JPATH_ADMINISTRATOR . '/components/com_associations/src'],

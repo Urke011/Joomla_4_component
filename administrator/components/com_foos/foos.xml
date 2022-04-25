@@ -11,6 +11,11 @@
     <description>COM_FOOS_XML_DESCRIPTION</description>
     <namespace path="src">FooNamespace\Component\Foos</namespace>
     <scriptfile>script.php</scriptfile>
+    <!-- Frond-end files -->
+    <files folder="components/com_foos">
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
     <administration>
         <menu view="foos">COM_FOOS</menu>
         <submenu>
@@ -31,7 +36,7 @@
     </updateservers>
     <dlid prefix="dlid=" suffix=""/>
 </extension>
-<!--
-foos.xml tells Joomla how to install our component. Just like modules and plugins, components have an XML installation file that informs Joomla about the extension to be installed.
+        <!--
+        foos.xml tells Joomla how to install our component. Just like modules and plugins, components have an XML installation file that informs Joomla about the extension to be installed.
 
--->
+        -->
